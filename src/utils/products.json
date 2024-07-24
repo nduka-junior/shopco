@@ -1,0 +1,206 @@
+[
+  {
+    "gender": "men",
+    "mainImage": "/tshirt/tshirt1_1.jpg",
+    "title": "EMBROIDERED TEXT T-SHIRT",
+    "rating": 4,
+    "price": 25.99,
+    "discountPrice": 39.9,
+    "category": "casual",
+    "type": "tshirt",
+    "id": 1,
+    "description": "Round neck T-shirt with short sleeves. Front embroidered text.",
+    "colors": ["#17191B", "#C8D6E9", "#5E6786", "#FAB49B"],
+    "size": ["Small", "Medium", "Large", "X-Large"],
+    "displayImage": [
+      "/tshirt/tshirt1_1.jpg",
+      "/tshirt/tshirt1_2.jpg",
+      "/tshirt/tshirt1_3.jpg"
+    ],
+    "arrival": true
+  },
+  {
+    "gender": "men",
+    "mainImage": "/tshirt/tshirt3_1.jpg",
+    "title": "OPEN WEAVE TANK TOP",
+    "rating": 3.5,
+    "price": 25.99,
+    "discountPrice": 45.9,
+    "category": "casual",
+    "type": "tank",
+    "id": 2,
+    "description": "Slim fit open weave tank top. Round neckline and sleeveless design. Rib trim.",
+    "colors": [],
+    "size": ["Medium", "Large", "X-Large"],
+    "displayImage": [
+      "/tshirt/tshirt3_1.jpg",
+      "/tshirt/tshirt3_2.jpg",
+      "/tshirt/tshirt3_3.jpg"
+    ],
+    "arrival": true
+  },
+  {
+    "gender": "men",
+    "mainImage": "/tshirt/tshirt4_1.jpg",
+    "title": "STRIPED COTTON TSHIRT",
+    "rating": 3.5,
+    "price": 25.99,
+    "discountPrice": 45.9,
+    "category": "casual",
+    "type": "cotton",
+    "id": 3,
+    "description": "Roomy T-shirt made of cotton fabric. Round neck and long sleeves. Chest patch pocket.",
+    "colors": ["#F7F6F0"],
+    "size": ["Small", "Medium", "Large", "X-Large"],
+    "displayImage": [
+      "/tshirt/tshirt4_1.jpg",
+      "/tshirt/tshirt4_2.jpg",
+      "/tshirt/tshirt4_3.jpg"
+    ],
+    "topSelling": true
+  },
+  {
+    "gender": "men",
+    "mainImage": "/tshirt/tshirt5_1.jpg",
+    "title": "TEXTURED KNIT T-SHIRT",
+    "rating": 4,
+    "price": 25.99,
+    "discountPrice": 49.9,
+    "category": "casual",
+    "type": "tshirt",
+    "id": 4,
+    "description": "Knit T-shirt in cotton blend fabric. Round neck and short sleeves. Rib trim.",
+    "colors": ["#F7F6F0"],
+    "size": ["Medium", "Large", "X-Large"],
+    "displayImage": [
+      "/tshirt/tshirt5_1.jpg",
+      "/tshirt/tshirt5_2.jpg",
+      "/tshirt/tshirt5_3.jpg"
+    ],
+    "arrival": true
+  },
+  {
+    "gender": "men",
+    "mainImage": "/pants/pants1_1.jpg",
+    "title": "SEAM DETAIL RIPPED PANTS",
+    "rating": 4,
+    "price": 25.99,
+    "discountPrice": 59.9,
+    "category": "formal",
+    "type": "pants",
+    "id": 5,
+    "description": "Relaxed fit pants. Front pockets and back flap pockets. Washed effect with rips at legs. Front zip",
+    "colors": ["#68695F", "#272329", "#F7F6F0"],
+    "size": ["Medium", "Large", "X-Large", "2X-Large"],
+    "displayImage": [
+      "/pants/pants1_1.jpg",
+      "/pants/pants1_2.jpg",
+      "/pants/pants1_3.jpg"
+    ],
+    "topSelling": true
+  },
+  {
+    "gender": "men",
+    "mainImage": "/pants/pants2_1.jpg",
+    "title": "WASHED FINISH CARPENTER PANTS",
+    "rating": 4,
+    "price": 25.99,
+    "discountPrice": 69.9,
+    "category": "formal",
+    "type": "pants",
+    "id": 6,
+    "description": "Straight fit pants made of washed color effect cotton. Front pockets and back patch pockets.",
+    "colors": ["#808080"],
+    "size": ["Large", "X-Large", "2X-Large"],
+    "displayImage": [
+      "/pants/pants2_1.jpg",
+      "/pants/pants2_2.jpg",
+      "/pants/pants2_3.jpg"
+    ],
+    "topSelling": true
+  },
+  {
+    "gender": "men",
+    "mainImage": "/pants/pants3_1.jpg",
+    "title": "WASHED CARGO PANTS",
+    "rating": 3.5,
+    "price": 25.99,
+    "discountPrice": 69.9,
+    "category": "formal",
+    "type": "pants",
+    "id": 7,
+    "description": "Slim fit pants made of cotton blend fabric. Front pleats at waist. Front pockets and back welt pockets.",
+    "colors": ["#000080"],
+    "size": ["Small", "Large", "X-Large", "2X-Large"],
+    "displayImage": [
+      "/pants/pants3_1.jpg",
+      "/pants/pants3_2.jpg",
+      "/pants/pants3_3.jpg"
+    ]
+  },
+  {
+    "gender": "men",
+    "mainImage": "/gym/gym1_1.jpg",
+    "title": "CONTRASTING TECHNICAL SWEATSHIRT",
+    "rating": 4.5,
+    "price": 15.99,
+    "discountPrice": 49.9,
+    "category": "gym",
+    "type": "sweatshirt",
+    "id": 8,
+    "description": "Sweatshirt made of contrasting technical fabric. High collar with adjustable drawstring hood.",
+    "colors": ["#000000"],
+    "size": ["Small", "Large", "X-Large"],
+    "displayImage": ["/gym/gym1_1.jpg", "/gym/gym1_2.jpg", "/gym/gym1_3.jpg"],
+    "arrival": true
+  },
+  {
+    "gender": "men",
+    "mainImage": "/gym/gym2_1.jpg",
+    "title": "TECHNICAL WINDBREAKER",
+    "rating": 4.5,
+    "price": 25.99,
+    "discountPrice": 69.9,
+    "category": "gym",
+    "type": "sweatshirt",
+    "id": 9,
+    "description": "Jacket made of textured lightweight technical fabric.",
+    "colors": ["#00FF00"],
+    "size": ["Small", "Large", "X-Large", "2X-Large"],
+    "displayImage": ["/gym/gym2_1.jpg", "/gym/gym2_2.jpg", "/gym/gym2_3.jpg"],
+    "topSelling": true
+  },
+  {
+    "gender": "men",
+    "mainImage": "/gym/gym3_1.jpg",
+    "title": "2 IN 1 TRAINING SHORTS",
+    "rating": 4.5,
+    "price": 35.99,
+    "discountPrice": 49.9,
+    "category": "gym",
+    "type": "shorts",
+    "id": 10,
+    "description": "Training shorts manufactured of technical lightweight stretch fabric. Interior tights. All-purpose training short.",
+    "colors": ["#17191B", "#C8D6E9", "#5E6786", "#FAB49B"],
+    "size": ["Small", "Large", "X-Large"],
+    "displayImage": ["/gym/gym3_1.jpg", "/gym/gym3_2.jpg", "/gym/gym3_3.jpg"],
+    "arrival": true
+  },
+  {
+    "gender": "men",
+    "mainImage": "/gym/gym4_1.jpg",
+    "title": "2 IN 1 TRAINING SHORTS",
+    "rating": 4.5,
+    "price": 35.9,
+    "discountPrice": 49.9,
+    "category": "gym",
+    "type": "shorts",
+    "id": 11,
+    "description": "Training shorts manufactured of technical lightweight stretch fabric. Interior tights. All-purpose training short.",
+    "colors": ["#FAB49B", "#C8D6E9", "#17191B", "#5E6786"],
+    "size": ["Small", "Medium", "Large", "X-Large"],
+    "displayImage": ["/gym/gym4_1.jpg", "/gym/gym4_2.jpg", "/gym/gym4_3.jpg"],
+    "topSelling": true
+  }
+]
+ 

@@ -1,0 +1,255 @@
+[
+  {
+    "id": 1,
+    "reviews": [
+      {
+        "name": "John Smith",
+        "review": 4.0,
+        "date": "July 20, 2024",
+        "description": "Great T-shirt with a nice embroidered detail. The fit is true to size and the fabric feels comfortable. The only downside is that it’s a bit pricey even with the discount."
+      },
+      {
+        "name": "Mike Johnson",
+        "review": 4.5,
+        "date": "July 22, 2024",
+        "description": "Really like this T-shirt! The embroidery looks sharp and the color options are fantastic. It’s a bit thicker than expected, but perfect for casual outings."
+      },
+      {
+        "name": "Chris Davis",
+        "review": 4.2,
+        "date": "July 23, 2024",
+        "description": "The T-shirt is well-made and the embroidered text adds a nice touch. It’s soft and comfortable, though I wish there were more color options."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "reviews": [
+      {
+        "name": "Paul Walker",
+        "review": 3.0,
+        "date": "July 21, 2024",
+        "description": "The tank top has a unique open weave design, but I found it a bit too loose and the material isn’t as soft as I hoped."
+      },
+      {
+        "name": "Andrew Lee",
+        "review": 3.7,
+        "date": "July 22, 2024",
+        "description": "Good tank top for the price, but the fit is a little awkward. It’s breathable and decent for workouts, though not ideal for everyday wear."
+      },
+      {
+        "name": "Samuel Brown",
+        "review": 3.5,
+        "date": "July 23, 2024",
+        "description": "The open weave is cool for hot days, but the tank could use better ribbing around the neck. Overall, it's functional but not exceptional."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "reviews": [
+      {
+        "name": "David Wilson",
+        "review": 3.4,
+        "date": "July 21, 2024",
+        "description": "The striped design is nice, but the cotton feels a bit rough. It’s a roomy fit which is good, but it’s not my favorite T-shirt."
+      },
+      {
+        "name": "Daniel Martinez",
+        "review": 3.6,
+        "date": "July 22, 2024",
+        "description": "Decent T-shirt with a classic striped look. The chest pocket is a nice feature, though the fabric could be softer."
+      },
+      {
+        "name": "Eric Garcia",
+        "review": 3.5,
+        "date": "July 23, 2024",
+        "description": "It’s an okay T-shirt. The stripes are subtle and the fit is good, but the cotton quality isn’t the best. It’s functional but not impressive."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "reviews": [
+      {
+        "name": "James Taylor",
+        "review": 4.1,
+        "date": "July 20, 2024",
+        "description": "The textured knit is comfortable and stylish. It’s a good blend of casual and dressy, but I wish it had more color options."
+      },
+      {
+        "name": "Robert Anderson",
+        "review": 4.4,
+        "date": "July 22, 2024",
+        "description": "Really pleased with this T-shirt. The knit fabric is high-quality and it fits perfectly. It’s a bit pricey but worth it."
+      },
+      {
+        "name": "Michael Thompson",
+        "review": 4.0,
+        "date": "July 23, 2024",
+        "description": "Good quality T-shirt with a nice texture. It’s comfortable to wear, though the sizing is slightly off. Overall, a solid purchase."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "reviews": [
+      {
+        "name": "William Harris",
+        "review": 4.0,
+        "date": "July 20, 2024",
+        "description": "The ripped detail adds a cool edge to these pants. They fit well and look stylish, though they might be too casual for some formal settings."
+      },
+      {
+        "name": "James Clark",
+        "review": 4.3,
+        "date": "July 22, 2024",
+        "description": "Excellent fit and design. The rips are just the right amount of distressed. They are comfortable and versatile for both casual and semi-formal occasions."
+      },
+      {
+        "name": "Henry Lewis",
+        "review": 4.2,
+        "date": "July 23, 2024",
+        "description": "These pants are great for a relaxed look. The ripped details and washed effect add character, though they might not be suitable for all professional environments."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "reviews": [
+      {
+        "name": "Thomas Robinson",
+        "review": 4.1,
+        "date": "July 20, 2024",
+        "description": "The washed finish gives these pants a unique look. They are comfortable and have a good fit, though the color might not suit everyone."
+      },
+      {
+        "name": "Daniel Walker",
+        "review": 4.5,
+        "date": "July 22, 2024",
+        "description": "Really impressed with these carpenter pants. The washed effect is stylish and the pockets are practical. A solid addition to any wardrobe."
+      },
+      {
+        "name": "Joshua Young",
+        "review": 4.0,
+        "date": "July 23, 2024",
+        "description": "Good quality pants with a nice fit. The washed finish is trendy, but they might not be as durable as expected."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "reviews": [
+      {
+        "name": "Nathan Scott",
+        "review": 3.5,
+        "date": "July 21, 2024",
+        "description": "The cargo pants are okay but the fit is a bit off. The color is nice, but they are not as comfortable as I hoped."
+      },
+      {
+        "name": "Ryan Adams",
+        "review": 3.6,
+        "date": "July 22, 2024",
+        "description": "These pants are functional with good pocket space. However, the slim fit might not be ideal for everyone. Decent for the price."
+      },
+      {
+        "name": "Mason Carter",
+        "review": 3.7,
+        "date": "July 23, 2024",
+        "description": "The washed look is appealing, but the fit and fabric quality are average. They work for casual wear but lack in durability."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "reviews": [
+      {
+        "name": "Elijah Mitchell",
+        "review": 4.6,
+        "date": "July 20, 2024",
+        "description": "Fantastic sweatshirt with a sleek design. The contrasting fabric is a nice touch and it keeps you warm without being too heavy."
+      },
+      {
+        "name": "Owen Perez",
+        "review": 4.4,
+        "date": "July 22, 2024",
+        "description": "The high collar and drawstring hood are great features. This sweatshirt is comfortable and perfect for workouts or casual wear."
+      },
+      {
+        "name": "Liam Sanders",
+        "review": 4.5,
+        "date": "July 23, 2024",
+        "description": "Excellent quality and design. The contrasting fabric adds a modern look, and it’s very functional for gym sessions or lounging."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "reviews": [
+      {
+        "name": "Noah Cooper",
+        "review": 4.5,
+        "date": "July 20, 2024",
+        "description": "The windbreaker is lightweight and perfect for layering. The technical fabric is great for active use, and the fit is true to size."
+      },
+      {
+        "name": "Ethan Brooks",
+        "review": 4.6,
+        "date": "July 22, 2024",
+        "description": "I love the technical fabric of this windbreaker. It’s breathable and stylish, making it ideal for both workouts and casual outings."
+      },
+      {
+        "name": "Logan Murphy",
+        "review": 4.4,
+        "date": "July 23, 2024",
+        "description": "Great windbreaker with a sleek design. The fabric is durable and the fit is comfortable, though it could use more pockets."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "reviews": [
+      {
+        "name": "Aiden Bailey",
+        "review": 4.7,
+        "date": "July 20, 2024",
+        "description": "These training shorts are excellent! The fabric is lightweight and breathable, making them perfect for high-intensity workouts."
+      },
+      {
+        "name": "Jackson Collins",
+        "review": 4.6,
+        "date": "July 22, 2024",
+        "description": "Very pleased with these shorts. The fit is perfect and the material is durable. They are comfortable for both running and weightlifting."
+      },
+      {
+        "name": "Caleb Rogers",
+        "review": 4.5,
+        "date": "July 23, 2024",
+        "description": "High-quality shorts that provide great mobility. The design is sleek and functional for any type of workout. A bit pricey, but worth it."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "reviews": [
+      {
+        "name": "Gabriel Evans",
+        "review": 4.5,
+        "date": "July 20, 2024",
+        "description": "The joggers are really comfortable with a nice fit. The fabric is soft and the style is modern. Perfect for lounging or casual outings."
+      },
+      {
+        "name": "Zachary Reed",
+        "review": 4.6,
+        "date": "July 22, 2024",
+        "description": "These joggers are top-notch. The quality is excellent and they look great. The tapered fit is flattering and the material is high-end."
+      },
+      {
+        "name": "Mason Murphy",
+        "review": 4.7,
+        "date": "July 23, 2024",
+        "description": "Absolutely love these joggers! They are incredibly soft and comfortable. The design is sleek and they are perfect for both lounging and exercise."
+      }
+    ]
+  }
+]
