@@ -1,6 +1,6 @@
 "use client";
 import Products from "@/components/Products";
-import React from "react";
+import React, { Suspense } from "react";
 import datas from "@/utils/products.json";
 import MainProduct from "@/components/MainProduct";
 import Filter from "@/components/Filter";
@@ -8,7 +8,7 @@ import FilterBig from "@/components/FilterBig";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
-function Page() {
+function ProductsPage() {
   const searchParams = useSearchParams();
   const category = searchParams.get("category") || "default category"; // Provide a default category
 
@@ -42,6 +42,14 @@ function Page() {
         <MainProduct products={categoryData} title={category} />
       </div>
     </div>
+  );
+}
+
+function Page() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ProductsPage />
+    </Suspense>
   );
 }
 
