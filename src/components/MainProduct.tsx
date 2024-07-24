@@ -26,8 +26,8 @@ function MainProduct({
       <div className="grid grid-cols-2 gap-10 md:grid-cols-3">
         {products.map((product: Product, index: number) => {
           return (
-            <Link href={`/shop/${product.id}`}>
-              <div key={index} className="flex flex-col  ">
+            <Link href={`/shop/${product.id}`} key={index}>
+              <div className="flex flex-col  ">
                 <div className="w-70 flex items-center justify-center">
                   <Image
                     src={product.mainImage}

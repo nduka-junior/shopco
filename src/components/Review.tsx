@@ -8,7 +8,10 @@ function Review({ review }: { review: ReviewDetailsType[] }) {
     <>
       {review.map((rev, index) => {
         return (
-          <div className="font-satoshi p-6 border-[1px] rounded-3xl  space-y-3" key={index}>
+          <div
+            className="font-satoshi p-6 border-[1px] rounded-3xl  space-y-3"
+            key={index}
+          >
             <Rating rating={rev.review} maxRating={5} size={27} />
             <div className="flex items-center gap-2">
               <h2 className="font-semibold text-lg">{rev.name}</h2>
@@ -20,8 +23,9 @@ function Review({ review }: { review: ReviewDetailsType[] }) {
               />
             </div>
             <div className="font-light">
-              <span>"</span>{rev.description}
-              <span>"</span>
+              <span>&quot</span>
+              {rev.description}
+              <span>&quot</span>
             </div>
             <div className="font-medium">
               <h1>

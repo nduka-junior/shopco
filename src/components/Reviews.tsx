@@ -21,8 +21,8 @@ export interface ReviewDetailsType {
   description: string;
 }
 
-function Reviews({ id }: { id: number }) {
-   const product = reviews.find((p) => p.id == id);
+function Reviews({ id }: { id: string }) {
+   const product = reviews.find((p) => p.id == Number(id));
 
    if (!product) {
      return <div>No reviews found for this product.</div>;

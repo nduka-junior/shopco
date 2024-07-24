@@ -7,9 +7,10 @@ import Filter from "@/components/Filter";
 import FilterBig from "@/components/FilterBig";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-function page() {
+
+function Page() {
   const searchParams = useSearchParams();
-  const category = searchParams.get("category");
+  const category = searchParams.get("category") || "default category"; // Provide a default category
 
   console.log(category, "ewdqs");
 
@@ -20,18 +21,19 @@ function page() {
   if (categoryData.length === 0)
     return (
       <div className="text-center mt-20">
-        <h1 className="text-3xl font-integral mb-6 ">Category NotFound</h1>
+        <h1 className="text-3xl font-integral mb-6">Category Not Found</h1>
         <Link
-          href={"/"}
-          className="py-3 px-6 rounded-lg bg-black text-white w-full  "
+          href="/"
+          className="py-3 px-6 rounded-lg bg-black text-white w-full"
         >
           Home
         </Link>
       </div>
     );
+
   return (
     <div className="p-10 lg:grid grid-cols-12 grid-row">
-      <div className="h-full col-span-3  ">
+      <div className="h-full col-span-3">
         <div className="max-lg:hidden">
           <FilterBig product={categoryData} />
         </div>
@@ -43,4 +45,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

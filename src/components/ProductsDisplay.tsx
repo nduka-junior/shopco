@@ -11,7 +11,7 @@ import products from "@/utils/products.json";
 import { Product } from "@/app/page";
 import Products, { DiscountPercentage } from "./Products";
 import datas from "@/utils/products.json";
-function ProductsDisplay({ id }: { id: number }) {
+function ProductsDisplay({ id }: { id: string }) {
   const images = [
     "/tshirt/tshirt1_1.jpg",
     "/tshirt/tshirt1_2.jpg",

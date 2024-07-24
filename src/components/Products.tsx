@@ -33,8 +33,8 @@ function Products({ products, title }: { products: Product[]; title: string }) {
        
         {products.map((product: Product, index: number) => {
           return (
-            <Link href={`/shop/${product.id}`}>
-              <div key={index} className="flex flex-col  ">
+            <Link href={`/shop/${product.id}`} key={index}>
+              <div className="flex flex-col  ">
                 <div className="w-80 h-30 flex items-center justify-center">
                   <Image
                     src={product.mainImage}
